@@ -26,5 +26,14 @@ namespace TableMates.Controllers
 
             return View();
         }
+
+        //send JSON like this:
+        //public JsonResult Source()
+        //{
+        //    var kvp = new Dictionary<string, string>();
+        //    kvp.Add("Windows Blergy Blergy", "Test");
+        //    return Json(kvp, JsonRequestBehavior.AllowGet);
+
+        //}
     }
 }
