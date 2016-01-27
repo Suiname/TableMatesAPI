@@ -4,10 +4,10 @@ using System.Data.Entity.ModelConfiguration.Conventions;
 
 namespace TableMates.DAL
 {
-    public class TablemateContext : DbContext
+    public class TablematesContext : DbContext
     {
 
-        public TablemateContext() : base("TablemateContext")
+        public TablematesContext() : base("TablematesContext")
         {
         }
 
