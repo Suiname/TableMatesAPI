@@ -1,0 +1,74 @@
+﻿@model TableMates.Models.Appointment
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Appointment</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Lat)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lat)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lng)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lng)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MinAttendees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MinAttendees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MaxAttendees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MaxAttendees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AppointmentName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AppointmentName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RestaurantName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RestaurantName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AppointmentDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AppointmentDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
