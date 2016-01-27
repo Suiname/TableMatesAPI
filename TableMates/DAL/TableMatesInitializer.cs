@@ -9,9 +9,6 @@ namespace TableMates.DAL
 {
     public class TableMatesInitializer : System.Data.Entity.DropCreateDatabaseIfModelChanges<TablematesContext>
     {
-        protected override void Seed(TablematesContext context)
-        {
-            //put database seed data in here
-        }
+        
     }
 }

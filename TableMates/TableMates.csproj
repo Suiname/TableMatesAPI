@@ -131,7 +131,7 @@
     <Compile Include="Controllers\AppointmentController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\UserController.cs" />
-    <Compile Include="DAL\AppointmentContext.cs" />
+    <Compile Include="DAL\TableMatesContext.cs" />
     <Compile Include="DAL\TableMatesInitializer.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
